@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+import random
+number = random.randint(-10000, 10000)
+last_digit = abs(number) % 10
+instruction = "The string Last digit of {}, is {} and is " .format(number, last_digit)
+
+if last_digit > 5:
+    instruction += "greater than 5"
+
+elif last_digit == 0:
+    instruction += "0"
+
+else:
+    instruction += "less than 6 and not 0"
+
+print(instruction)
