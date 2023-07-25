@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 last_digit = abs(number) % 10
-instruction = "The string Last digit of {}, is {} and is " .format(number, last_digit)
+instruction = "Last digit of {}, is {} and is " .format(number, last_digit)
 
 if last_digit > 5:
     instruction += "greater than 5"
