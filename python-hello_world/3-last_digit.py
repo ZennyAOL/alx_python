@@ -11,6 +11,6 @@ elif last_digit == 0:
     instruction += "0"
 
 else:
-    instruction += "less than 6 and not 0"
+    instruction += "- less than 6 and not 0"
 
 print(instruction)
